@@ -76,3 +76,12 @@ footer {
         align-items: center;
     }
 }
+
+.social {
+    margin: 10px 0;
+}
+
+.social img {
+    margin: 0 8px;
+    vertical-align: middle;
+}
