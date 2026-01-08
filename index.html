@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Портфолио разработчика</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <ul class="menu">
+            <li><a href="#home">Главная</a></li>
+            <li><a href="#about">Обо мне</a></li>
+            <li><a href="#portfolio">Портфолио</a></li>
+            <li><a href="#contacts">Контакты</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="home" class="section home">
+    <h1>Сайт-портфолио</h1>
+    <p>
+        Добро пожаловать на мой персональный сайт. Здесь представлена информация
+        обо мне, моих навыках и выполненных работах. Данный сайт создан вручную
+        с использованием HTML, CSS и JavaScript.
+    </p>
+</section>
+
+<section id="about" class="section about">
+    <h2>Обо мне</h2>
+    <img src="images/photo.jpg" alt="Моё фото" class="photo">
+    <p>
+        Я начинающий веб-разработчик, изучающий основы фронтенд-разработки.
+        В процессе обучения осваиваю HTML5, CSS3, адаптивную верстку и основы
+        JavaScript.
+    </p>
+</section>
+
+<section id="portfolio" class="section portfolio">
+    <h2>Портфолио</h2>
+    <div class="gallery">
+        <img src="images/work1.jpg" alt="Работа 1">
+        <img src="images/work2.jpg" alt="Работа 2">
+        <img src="images/work3.jpg" alt="Работа 3">
+    </div>
+</section>
+
+<section id="contacts" class="section contacts">
+    <h2>Обратная связь</h2>
+    <form id="contactForm">
+        <input type="text" placeholder="Имя" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <textarea placeholder="Сообщение" required></textarea>
+        <button type="submit">Отправить</button>
+    </form>
+    <p id="formMessage"></p>
+</section>
+
+<footer>
+    <p>© 2026 Портфолио разработчика</p>
+    <div class="social">
+        <a href="https://github.com/" target="_blank">GitHub</a>
+        <a href="https://t.me/" target="_blank">Telegram</a>
+    </div>
+    <p>
+        Телефон: <a href="tel:+78005553535">+7 800 555 35 35</a><br>
+        Email: <a href="mailto:markmc1337@gmail.com">markmc1337@gmail.com</a>
+    </p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
